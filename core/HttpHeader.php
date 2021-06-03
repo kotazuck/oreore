@@ -25,3 +25,4 @@ class HttpHeader
         return $this->get('content-type');
     }
 }
+

@@ -13,4 +13,8 @@ class RootController extends \OreOre\Core\Controller
         return $this->response(200, $view->render());
     }
 
+    public function oreore()
+    {
+        return $this->response(200, 'oreore');
+    }
 }
